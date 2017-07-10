@@ -12,3 +12,8 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 #
 GET     /welcome                    controllers.WelcomeController.welcome
+
+# section 5
+GET     /sandwiches                 controllers.SandwichController.sandwiches
+
+
